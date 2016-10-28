@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brioal.drawableanimation.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff1c02e"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CircleBroodLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="CircleBroodLoadingRenderer"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CoolWaitLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="CoolWaitLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="BalloonLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="BalloonLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="WaterBottleLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="WaterBottleLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FishLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="FishLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="GhostsEyeLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="GhostsEyeLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ElectricFanLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="ElectricFanLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DayNightLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="DayNightLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CollisionLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="CollisionLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SwapLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="SwapLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="GuardLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="GuardLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DanceLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="DanceLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="WhorlLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="WhorlLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MaterialLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="MaterialLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="GearLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="GearLoadingRenderer"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LevelLoadingRenderer"
+                android:textSize="22sp"/>
+
+            <com.brioal.drawableview.LoadingView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:loading_renderer="LevelLoadingRenderer"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
