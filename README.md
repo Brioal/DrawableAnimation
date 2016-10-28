@@ -13,6 +13,6 @@
 ###Step 2. Add the dependency
 ```
 	dependencies {
-		compile 'com.github.User:Repo:Tag'
+		compile 'com.github.Brioal:DrawableAnimation:1.0'
 	}
 ```
